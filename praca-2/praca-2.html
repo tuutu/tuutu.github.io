@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>Blogin.</title>
+    <meta charset="UTF-8">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href="css/css.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="js/jquery.js" type="text/javascript"></script>
+  </head>    
+  <body>
+    <header class="header">
+      
+      <!-- Nawigacja -->
+      <div class="header-content clearfix">
+        <h1>Blogin<span>.</span></h1>         
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#">Journal</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>                
+      </div>
+    </header> 
+    
+    <!-- Treść główna -->
+    <main class="main-content">
+      <article>
+        <figure>
+          <img src="img/zdj1.jpg" alt="">
+        </figure>
+         <header>
+          <h2><a href="#">Duis autre irure dolor in hendreit in voluptate.</a></h2>
+        </header>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in clpua qui officia deserunt mollit anim id est laborum.</p>
+          <p>Duis autre irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla partiatur..</p>
+          <p><a href="#">Continue Reading</a></p>       
+      </article>
+      <article>
+        <figure>
+          <img src="img/zdj2.jpg" alt="">
+        </figure>
+        <header>
+          <h2><a href="#">Duis autre irure dolor in hendreit in voluptate.</a></h2>
+        </header>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in clpua qui officia deserunt mollit anim id est laborum.</p>
+          <p>Duis autre irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla partiatur..</p>
+          <p><a href="#">Continue Reading</a></p>       
+      </article>
+      <article>
+        <figure>
+          <img src="img/zdj3.jpg" alt="">
+        </figure>
+        <header>
+          <h2><a href="#">Duis autre irure dolor in hendreit in voluptate.</a></h2>
+         </header>
+          <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commo doconsequat, sunt in clpua qui officia deserunt mollit anim id est laborum.</p>
+          <p>Duis autre irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla partiatur..</p>
+          <p><a href="#">Continue Reading</a></p>       
+      </article>
+      
+      <!-- Nawigacja postów strony -->
+      <nav class="clearfix news-nav">
+        <div class="previous-content"><a href="#">&#8592; previous</a></div>
+        <div class="next-content"><a href="#">next &#8594;</a></div></nav>               
+      </main>
+    
+      <!-- Stopka -->
+      <footer> 
+        <div class="footer-content">
+        <h1>Blogin<span>.</span></h1>
+        <p>&#169; 2014 Blogin.com - All Rights Reserved - Find more free Templates at <a href="http://pixelhint.com">Pixelhint.com</a></p>
+        <a href="https://www.facebook.com/"><span class="socicon socicon-facebook"></span></a>
+        <a href="https://twitter.com/"><span class="socicon socicon-twitter"></span></a>
+        <a href="https://www.behance.net/"><span class="socicon socicon-behance"></span></a>
+        <a href="https://dribbble.com/"><span class="socicon socicon-dribbbble"></span></a>
+        </div>  
+      </footer>       
+      <!-- Skrypty -->     
+    <script>
+  $(document).ready(function() {            
+            $(".socicon-facebook").hover(function() {
+                $(this).toggleClass("highlight-facebook"); });
+               
+            $(".socicon-twitter").hover(function() {
+                $(this).toggleClass("highlight-twitter"); });
+                    
+            $(".socicon-behance").hover(function() {
+                $(this).toggleClass("highlight-behance"); });
+            
+            $(".socicon-dribbbble").hover(function() {
+                $(this).toggleClass("highlight-dribbbble"); });  
+             
+        });
+  </script>
+  </body>
+</html>
