@@ -136,7 +136,7 @@ main {
   font-weight: 700;
 }
 .btn,
-author {
+cite {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
@@ -228,22 +228,27 @@ main h1 {
   padding-left: 30px; 
 }
 
-main p, cite {
+main p, blockquote {
   color: #8a8a8a;
 }
 
-cite {
+blockquote {
   display: inline-block;
   width: 70%;
   padding-bottom: 1.5em;
 }
 
-author,
-cite {
+cite,
+blockquote {
   font-size: 18px;
+  font-style: italic;
 }
-
-author,
+cite {
+  font-style: normal;
+  color: #000;
+  padding-top: 10px;
+}
+cite,
 .testimonials p {
   display: block;
   padding-bottom: 1.5em;
