@@ -287,8 +287,9 @@ cite,
 .footer ul {
   list-style: none;
   display: block;
-  width: 60%;
+  width: 90%;
   margin: 0 auto;
+  text-align: center;
 }
 
 .soc-circle {
@@ -397,4 +398,6 @@ cite,
   .btn {
     font-size: 14px; 
   } 
+
+  
 }
