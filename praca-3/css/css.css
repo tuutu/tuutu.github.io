@@ -343,6 +343,9 @@ line-height: 95px;
   .menu-trigger {
     display: none;
   }
+  .navigation li a:focus {
+background-color: transparent;
+}
 }
 
 @media screen and (min-width: 1024px) {
