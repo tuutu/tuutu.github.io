@@ -18,6 +18,10 @@
   line-height: 1.5em;
 }
 
+section {
+  display: block;
+}
+
 .header {
   background-color: #2ecc71;
   height: 610px;
