@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>slider</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css.css">
+<!-- bxSlider CSS file -->
+<link href="lib/jquery.bxslider.css">
+<!-- bxSlider Javascript file -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<script src="js/jquery.bxslider.min.js"></script>
+ <!-- jQuery library (served from Google) -->
+
+
+
+  </head>
+  <body>
+   
+ <div class="image">
+  <ul class="bxslider">
+  <li>
+  pierwszy slogan
+  </li>
+  <li>drugi slogan</p>
+  </li>
+  <li>trzeci slogan</li>
+  <li>czwarty slogan</li>
+</ul>
+  </div>
+   
+   
+    
+    <script>
+jQuery(function($){
+				$('.bxslider').bxSlider({
+					mode: 'fade',
+					infiniteLoop: true,
+					speed: 500,
+					pause: 3000,
+					pager: false,
+					controls: false,
+					auto: true,
+					captions: true,
+					responsive: true
+				});
+			});
+    </script>
+  </body>
+</html>
